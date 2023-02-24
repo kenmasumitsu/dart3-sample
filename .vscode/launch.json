@@ -1,0 +1,134 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "x_01_base.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_01_base.dart",
+            "vmAdditionalArgs": [
+
+            ]
+        },
+        {
+            "name": "x_02_cls.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_02_cls.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_03_tuple.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_03_tuple.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=records,patterns",
+            ]
+        },
+        {
+            "name": "x_04_records.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_04_records.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=records,patterns",
+            ]
+        },
+        {
+            "name": "x_05_records_pattern.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_05_records_pattern.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_06_records_pattern2.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_06_records_pattern2.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_10_base.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_10_base.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_11_pattern.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_11_pattern.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_12_switch.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_12_switch.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_13_switch2.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_13_switch2.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_20_switch.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_20_switch.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_21_switch_or.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_21_switch_or.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_22_switch_nobreak.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_22_switch_nobreak.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        },
+        {
+            "name": "x_23_switch_when.dart",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/x_23_switch_when.dart",
+            "vmAdditionalArgs": [
+                "--enable-experiment=patterns,records"
+            ]
+        }
+    ]
+}
