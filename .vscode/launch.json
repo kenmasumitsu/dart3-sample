@@ -10,7 +10,7 @@
             "type": "dart",
             "program": "bin/x_01_base.dart",
             "vmAdditionalArgs": [
-
+                "--enable-experiment=patterns,records"
             ]
         },
         {

@@ -12,9 +12,9 @@ List<Object> userInfo(Map<String, dynamic> json) {
 }
 
 void main(List<String> arguments) {
-  final info = userInfo(json);
-  final name = info[0] as String; // type safeではない
-  final age = info[1] as int;
+  final List<Object> info = userInfo(json);
+  final String name = info[0] as String; // type safeではない
+  final int age = info[1] as int;
 
   print('name: $name, age: $age');
 }

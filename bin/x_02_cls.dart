@@ -5,7 +5,7 @@
 // 入力JSON
 final Map<String, dynamic> json = {'name': 'Lily', 'age': 13};
 
-// データクラスを作る
+//! データクラスを作る
 class UserInfo {
   final String name;
   final int age;
@@ -19,9 +19,9 @@ UserInfo userInfo(Map<String, dynamic> json) {
 }
 
 void main(List<String> arguments) {
-  final info = userInfo(json);
-  final name = info.name; // type safe
-  final age = info.age;
+  final UserInfo info = userInfo(json);
+  final String name = info.name; // type safe
+  final int age = info.age;
 
   print('name: $name, age: $age');
 }
