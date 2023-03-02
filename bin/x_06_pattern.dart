@@ -1,4 +1,4 @@
-final Map<String, dynamic> json = {'name': 'Lily', 'age': '13'};
+final Map<String, dynamic> json = {'name': 'Lily', 'age': 13};
 
 void main(List<String> arguments) {
   //! パターン代入する。
